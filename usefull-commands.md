@@ -21,4 +21,19 @@
 | -d        | deatached mode            | `-d`     |
 | -p        | expose one port           | `-p <port-host>:<port-container>` |
 |           | expose multiple ports     | `-p <port-host-1>:<port-container-1> -p <port-host-2>:<port-container-2>` |
-| --name    | name a container          | `--name <container-name>`
+| --name    | name a container          | `--name <container-name>` |
+
+## docker build 
+    # build a docker image from a dockerfile
+    docker build <dockerfile_directory>
+
+    # docker build help
+    docker build --help
+
+| Flag      | Use                       | Syntax   |
+|-----------|---------------------------|----------|
+| -t --tag  | name and tag a build      | `-t <image_name>:<image_tag>` |
+
+## docker tag 
+    # create a new tag image based on a previous one
+    docker tag <image_name>:<image_tag_1> <image_name>:<image_tag_2> 

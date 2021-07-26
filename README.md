@@ -6,6 +6,7 @@ My personal project folder for the course Docker and Kubernetes by freeCodeCamp.
 - [YouTube Course](https://www.youtube.com/watch?v=Wf2eSG3owoA)
 - [Docker Docs](https://docs.docker.com/get-started/)
 - [Docker Hub](https://hub.docker.com/)
+- [expressjs](https://expressjs.com/)
 
 ## Notes
 
@@ -44,3 +45,43 @@ A Docker Container it's a running instance of a Docker Image.
 Volumes allow sharing data (folders and files) in between host and container or two or more containers.
 
 ![mount-volumes](/images/mount-volumes.png)
+
+### Dockerfile
+
+Used to build our own images. List of steps of how to create images
+
+- [Dockerfile Reference](https://docs.docker.com/engine/reference/builder/)
+- [Dockerfile Best Practices](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/)
+
+#### .dockerignore
+
+#### Caching and Layers
+
+#### Alpine
+
+Check alpine version of images for lightweight versions.
+
+#### Tags and Versions
+
+Allows controll for image version
+
+### Docker Registry
+
+Highly scalable server side application that stores and lets you distribute Docker images. Use it for CI/CD or running applications.
+
+#### Private / Public
+
+#### Most used registry sites
+- [Docker Hub](https://hub.docker.com/)
+- [Amazon ECR](https://aws.amazon.com/ecr/)
+- [quay.io](https://quay.io/)
+
+### Docker Inspect
+
+Displays information about a container
+
+### Docker Logs
+
+### Docker Exec
+
+Get into the container

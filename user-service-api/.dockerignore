@@ -1,0 +1,4 @@
+# ignored files that it won't move to the container
+.git
+Dockerfile
+node_modules
